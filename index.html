@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/plane.png" type="image/x-icon">
+    <title>Registro de equipaje</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+0            <div class="col md-6">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <form action="/submit" method="POST">
+
+                            <h1>Registro de equipaje</h1>
+                            
+                            <div class="mb-3">
+                            <label>Nombre</label>
+                            <input type="text" name="nombre" class="form-control" placeholder="Camila" required>
+                            </div>
+                            
+                            <div class="mb-3">
+                            <label>Numero de identificación</label>
+                            <input type="number" name="idPasajero" class="form-control" placeholder="52678991" required>
+                            </div>
+                            
+                            <div class="mb-3">
+                            <label>Destino</label>
+                            <select name="destino" class="form-control" required>
+                            <option value="">Selecciona tu destino</option>
+                            <option value="Bogota">Bogotá</option>
+                            <option value="BuenosAires">Buenos Aires</option>
+                            <option value="Quito">Quito</option>
+                            <option value="SantiagoChile">Santiago de Chile</option>
+                            </select>
+                            </div>
+                            
+                            <div class="mb-3">
+                            <label>Aerolínea</label>
+                            <select name="aerolinea" class="form-control" required>
+                            <option value="">Selecciona tu Aerolínea</option>
+                            <option value="Avianca">Avianca</option>
+                            <option value="Clic Air">Clic Air</option>
+                            <option value="Wingo">Wingo</option>
+                            <option value="LATAM">LATAM</option>
+                            </select>
+                            </div>
+                            
+                            <div class="mb-3">
+                            <label>Vuelo</label>
+                            <input type="text" name="vuelo" class="form-control" placeholder="CW294L3K" required>
+                            </div>
+                            
+                            <div class="mb-3">
+                            <label>Cantidad de maletas</label>
+                            <input type="number" name="cantidadMaletas" class="form-control" placeholder="1 - 5" required>
+                            </div>
+                            
+                            <div class="mb-3">
+                            <label>Peso de tus maletas</label>
+                            <input type="text" name="pesos" class="form-control" placeholder="1, 8.5" required>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Registar</button>
+                            
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

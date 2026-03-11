@@ -1,0 +1,31 @@
+body{
+    background: #c70000;
+    background: linear-gradient(149deg,rgb(6, 0, 29) 0%, rgb(4, 0, 109) 100%, rgb(30, 0, 32) 100%);
+}
+
+h1{
+    color: #1d31c8;
+}
+
+.card{
+    margin-bottom: 3rem;
+    color: #aaaaaa;
+    background-color: #00000096;
+    border: none;
+}
+
+.form-control{
+    border: none;
+    background-color: #202020;
+}
+
+.btn-primary {
+    color: #f7f0ff;
+    background-color: #001eff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #00105f;
+    border: none;
+}

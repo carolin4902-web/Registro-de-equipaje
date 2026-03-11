@@ -1,0 +1,26 @@
+[
+  {
+    "nombre": "Carolina",
+    "idPasajero": "102046312",
+    "destino": "Quito",
+    "aerolinea": "Avianca",
+    "vuelo": "12KD34",
+    "cantidadMaletas": 5,
+    "pesoTotal": 19,
+    "exceso": 4,
+    "costo": 32000,
+    "totalVuelo": 532000
+  },
+  {
+    "nombre": "Cami",
+    "idPasajero": "102036532",
+    "destino": "BuenosAires",
+    "aerolinea": "Avianca",
+    "vuelo": "12KD34",
+    "cantidadMaletas": 2,
+    "pesoTotal": 15,
+    "exceso": 0,
+    "costo": 0,
+    "totalVuelo": 500000
+  }
+]
